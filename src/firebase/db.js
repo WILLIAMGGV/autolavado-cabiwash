@@ -3,14 +3,15 @@ import { getFirestore } from "@firebase/firestore";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAH9EzD8wsN2yeGIHkLJVr8_Zs6yq815fE",
-  authDomain: "cabi-wash-web.firebaseapp.com",
-  projectId: "cabi-wash-web",
-  storageBucket: "cabi-wash-web.appspot.com",
-  messagingSenderId: "1057884777550",
-  appId: "1:1057884777550:web:c6a82ededdc0a5386c671f",
+  apiKey: "AIzaSyATpt3Kz6T6uYRioVvKIhFgMxRukO0kZRM",
+  authDomain: "casadelahumado-dae46.firebaseapp.com",
+  projectId: "casadelahumado-dae46",
+  storageBucket: "casadelahumado-dae46.appspot.com",
+  messagingSenderId: "559007872097",
+  appId: "1:559007872097:web:6bbcb108d01f68433d2620",
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);

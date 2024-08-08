@@ -8,7 +8,10 @@ const Login = () => {
   const [erroruser, setErroruser] = useState(false);
 
   const entrar = () => {
-    if (email === "omar@gmail.com" && password === "Omar2024-22") {
+    if (
+      email === "lacasadelahumado@gmail.com" &&
+      password === "LaCasa2024-22"
+    ) {
       // Convertir el objeto a JSON
       const session = {
         user: "omar",

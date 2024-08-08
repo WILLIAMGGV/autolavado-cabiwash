@@ -1,0 +1,44 @@
+[debug] [2024-08-08T03:32:52.241Z] ----------------------------------------------------------------------
+[debug] [2024-08-08T03:32:52.246Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\William\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-08T03:32:52.246Z] CLI Version:   13.12.0
+[debug] [2024-08-08T03:32:52.247Z] Platform:      win32
+[debug] [2024-08-08T03:32:52.247Z] Node Version:  v20.11.1
+[debug] [2024-08-08T03:32:52.247Z] Time:          Wed Aug 07 2024 23:32:52 GMT-0400 (hora de Venezuela)
+[debug] [2024-08-08T03:32:52.247Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-08T03:32:52.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-08T03:32:52.358Z] > authorizing via signed-in user (anthonymichels369@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\sistema\projects\react\casadelahumado
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-08-08T03:33:03.491Z] Using project from CLI flag: cabi-wash-web
+[debug] [2024-08-08T03:33:03.495Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cabi-wash-web [none]
+[debug] [2024-08-08T03:33:03.993Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cabi-wash-web 403
+[debug] [2024-08-08T03:33:03.994Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cabi-wash-web {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-08-08T03:33:03.995Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-08-08T03:33:04.147Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\William\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\William\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cabi-wash-web. Please make sure the project exists and your account has permission to access it.
